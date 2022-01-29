@@ -5,15 +5,15 @@
 activate.bat
 
 IF EXIST "requirements.txt"(
-  ECHO "Removing The Existing requirements.txt file"
-  rm requirements.txt
+  REM "Removing The Existing requirements.txt file"
+  del requirements.txt
 )
 
 pip freeze > requirements.txt
 
 IF EXIST "condaRequirements.txt" (
   ECHO "Removing The Existing condaRequirements.txt file"
-  rm condaRequirements.txt
+  del condaRequirements.txt
 )
 
 conda list -e > condaRequirements.txt
