@@ -57,6 +57,7 @@ Coming to the context the chatbot has many in-built feature out of the box.
     pip install multidict==4.7.6
     pip install pytz==2020.5
     pip install SQLAlchemy==1.3.19
+    pip3 install rasa-sdk
     ```
 
 [Reference Link](https://medium.com/co-learning-lounge/step-by-step-guide-to-install-rasa-x-in-windows-without-docker-85da8502bce)
