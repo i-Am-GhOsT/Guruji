@@ -6,25 +6,25 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - action: utter_How_slots
 
-- story: sad path 1
+- story: send mail path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
   - intent: affirm
-  - action: utter_happy
+  - action: utter_your_email
+  - intent: my_email
+    entities:
+      - email: "arindamtanti123@gmail.com"
+  - slot_was_set:
+      - email: "arindamtanti123@gmail.com"
+  - action: action_send_mail
 
-- story: sad path 2
+- story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: restart
+  steps:
+    - intent: restart
+    - action: action_restart

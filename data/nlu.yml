@@ -16,21 +16,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,7 +24,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -49,44 +33,35 @@ nlu:
     - don't like that
     - no way
     - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: pincode
+  examples: |
+    - check by pincode
+    - by pin
+    - pincode
+- intent: location
+  examples: |
+    - by location
+    - by longitude and lattitude
+    - by lat-lon
+- intent: district
+  examples: |
+    - by district id
+    - by district
+    - with district id
+- intent: my_email
+  examples: |
+    - my email id is [arindamtanti123@gmail.com]{"entity":"email"}
+    - this is my email id [arindamtanti123@gmail.com]{"entity":"email"}
+    - [arindamtanti123@gmail.com]{"entity":"email"}
+- intent: restart
+  examples: |
+    - restart the conversation
+    - restart chat
+    - start the conversation again
+    - start again

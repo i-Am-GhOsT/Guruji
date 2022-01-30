@@ -1,0 +1,17 @@
+# Ignoring The git files and folder 
+.git
+
+#Ignoring The Python Cache Files
+*.pyc
+__pycache__
+__init__.pyc
+
+## Commnet/Uncomment the Below Line To include/exclude the compressed models
+*.tar.gz
+
+
+# Ignore Rasa Runtime Files
+*.db*
+
+# Ignore Confedential Files
+creds.txt
