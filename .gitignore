@@ -14,4 +14,4 @@ __init__.pyc
 *.db*
 
 # Ignore Confedential Files
-creds.txt
+# creds.txt
