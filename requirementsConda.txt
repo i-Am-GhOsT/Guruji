@@ -15,6 +15,7 @@ httptools=0.3.0=pypi_0
 humanfriendly=10.0=pypi_0
 idna=3.3=pypi_0
 multidict=5.2.0=pypi_0
+ngrok=0.0.1=pypi_0
 openssl=1.1.1m=h2bbff1b_0
 pip=21.2.4=py39haa95532_0
 pipreqs=0.4.11=pypi_0
